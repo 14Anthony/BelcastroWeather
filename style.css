@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    background-color: rgb(113, 152, 190);
+    color: ivory;
+    opacity: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+#currentDay {
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(Weather.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pageBody {
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#submit {
+    opacity: 180%;
+    color: rgb(247, 95, 39);
+}
+
+#search {
+    margin-left: 16px;
+}
+
+#currentWeather {
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    height: 350px;
+    color: rgb(100, 137, 175);
+    background-color: #f59f80;
+    font-weight: bold;
+    opacity: 80%;
+    text-shadow: black;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#historyArea {
+    padding: 10px;
+    margin: 10px 10px 10px 5px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: left;
+    /* background-color: seashell; */
+}
+#forcasts {
+    text-align: center;
+}
+
+#forcastWeather1 {
+    background-color: rgb(113, 152, 190);
+    color: ivory;
+    opacity: 75%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#forcastWeather2 {
+    background-color: rgb(87, 124, 160);
+    color: ivory;
+    opacity: 75%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#forcastWeather3 {
+    background-color: rgb(62, 99, 136);
+    color: ivory;
+    opacity: 75%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#forcastWeather4 {
+    background-color: rgb(38, 70, 102);
+    color: ivory;
+    opacity: 75%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#forcastWeather5 {
+    background-color: rgb(9, 27, 44);
+    color: ivory;
+    opacity: 75%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.forecastDay {
+    background-color: ivory;
+    color: rgb(113, 152, 190);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(113, 152, 190);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: Ivory;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    margin: 5px;
+    border: ivory;
+    color: rgb(247, 95, 39);
+    font-weight: bold;
+    opacity: 80%;
+    
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}

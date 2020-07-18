@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Belcastro's Weather</title>
+
+</head>
+<header class="header">
+    <h1 style="text-align: center;">Belcastro Weather</h1>
+    <p id="currentDay" class="lead"></p>
+    <div class="row justify-content-sm-center" id="searchArea">
+        <input type="text" id="search" placeholder="City Name">
+        <button id="submit" type="submit"><i class="fa fa-search">Tender Request</i></button>
+
+        <br>
+
+    </div>
+
+</header>
+
+<body>
+
+    <div class="container" id="pageBody">
+        <div class="row justify-content-md-center">
+            <div class="col" id="historyArea">
+                <h2>Search History</h2>
+                <!-- 1 of 2 -->
+                <div id="searchHistory"></div>
+            </div>
+            <div class="col" id="currentWeather">
+                <h2>Current Weather</h2>
+                <!-- 2 of 2 -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="forcastDay col" id="forcastWeather1">
+                <h3>Day 1</h3>
+                <!-- 1 of 5 -->
+            </div>
+            <div class="forcastDay col" id="forcastWeather2">
+                <h3>Day 2</h3>
+                <!-- 2 of 5 -->
+            </div>
+            <div class="forcastDay col" id="forcastWeather3">
+                <h3>Day 3</h3>
+                <!-- 3 of 5 -->
+            </div>
+            <div class="forcastDay col" id="forcastWeather4">
+                <h3>Day 4</h3>
+                <!-- 4 of 5 -->
+            </div>
+            <div class="forcastDay col" id="forcastWeather5">
+                <h3>Day 5</h3>
+                <!-- 5 of 5 -->
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <script src="../BelcastroWeather/assets/moment.min.js"></script>
+    <script src="../BelcastroWeather/assets/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../6/assets/script.js"></script>
+</body> -->
+
+</html>
